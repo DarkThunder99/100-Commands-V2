@@ -52,7 +52,6 @@ const Description = `My Prefix For **${message.guild.name}** Is **${prefix}**\n\
 
 const Embed = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setImage(`https://api.creavite.co/out/fb650500-7c2c-4d60-bce0-40529b4aff92_standard.gif`)
     .setAuthor("Commands", message.author.avatarURL({
         dynamic: true
     }))
