@@ -34,12 +34,12 @@ run: async (bot, message, args) => {
     AllCommands = [];
 
 const Emotes = {
-    admin: "<a:EMP_KING:867324413267542026> Admin - (15)",
-    fun: "<:fun:866155255321853982> Fun - (26)",
-    images: "<:avatar:866155256827084851> Images - (20)",
-    info: "<:folder:866155255099424769> Info - (12)",
-    mod: "<:moderation:866155254399500288> Mod - (22)",
-    utility: "<:discriminator:866155257242976276> Utility - (8)"
+    admin: "Admin - (15)",
+    fun: "Fun - (26)",
+    images: "Images - (20)",
+    info: "Info - (12)",
+    mod: "Mod - (22)",
+    utility: "Utility - (8)"
 };
 
 
