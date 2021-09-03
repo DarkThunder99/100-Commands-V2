@@ -19,6 +19,8 @@ const wb = require("quick.db");
 const bot = new Client({ disableMentions: 'everyone',
   partials: ["MESSAGE", "CHANNEL", "REACTION"]
 });
+const Chat = require("clever-chat");
+const chat = new Chat({ name: "IDK" });
 const fs = require("fs");
 const db = require('old-wio.db');
 const emojis = require("./emojis.json");
@@ -194,17 +196,9 @@ bot.on("message", async message => {
       
       if(message.attachments.size > 0)
         return message.channel.send("Hey buddy! I cannot read files :(\nPlease try to keep it in chat..")
-     
-      fetch(`http://api.brainshop.ai/get?bid=${bot.config.bid}&key=${bot.config.key}&uid=1&msg=${encodeURIComponent(message)}`)
-     .then(res => res.json())
-     .then(data => {
-     message.channel.send(new MessageEmbed()
-     .setTitle(bot.user.username, bot.user.displayAvatarURL())
-     .setDescription(`Your Message : **${message}**\nMy Message : **${data.cnt}**`)
-     .setColor("RANDOM")
-     .setFooter(`Talking with ${message.author.username}`, message.author.displayAvatarURL({
-       dynamic: true
-     }))
+	    
+     chat.chat(message.content).then(reply => {
+          message.channel.send(reply))
      ).catch(e => console.log(e));
      });
     }
