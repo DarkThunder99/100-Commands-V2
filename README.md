@@ -3,7 +3,7 @@
 
 ## Requirements
 1. Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
-2. Node.js v14.0.0 or Newer
+2. Node.js v12.0.0 or Newer
 
 ## 🚀 Getting Started
 
