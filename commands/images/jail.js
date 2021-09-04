@@ -5,8 +5,8 @@ const AmeAPI = new Amebot(config.AME_API);
 
 module.exports = {
     config: {
-        name: 'trash',
-        description: 'Editing image and send trash one!',
+        name: 'jail',
+        description: 'Editing image and send jail one!',
         aliases: [""],
         usage: '',
         category: 'images',
@@ -15,7 +15,7 @@ module.exports = {
 
         let user = await message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.guild.members.cache.find(r => r.user.username.toLowerCase() === args.join(' ').toLocaleLowerCase()) || message.guild.members.cache.find(r => r.displayName.toLowerCase() === args.join(' ').toLocaleLowerCase()) || message.member;
         let m = await message.channel.send("**Please Wait...**");
-        let buffer = await AmeAPI.generate("trash", { url: user.user.displayAvatarURL({ format: "png", size: 2048 }) });
+        let buffer = await AmeAPI.generate("jail", { url: user.user.displayAvatarURL({ format: "png", size: 2048 }) });
         let attachment = new Discord.MessageAttachment(buffer, "trash.png");
         m.delete({ timeout: 5000 });
         message.channel.send(attachment);
