@@ -1,5 +1,5 @@
 {
-  "name": "discord-moderation-bot",
+  "name": "bolt",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -60,6 +60,5 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "Manav Garg",
-  "license": "ISC"
+  "license": "MIT"
 }
