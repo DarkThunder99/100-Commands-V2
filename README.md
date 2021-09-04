@@ -27,7 +27,9 @@ This Bot isn't Made by Me, My Friend gave It to me
 ### Installing and Running the Bot
 #### Installing Bot
 To Install Packages needed for the Bot, Go to Console and Type 
-```npm install```
+```
+npm install
+```
 or Run the `install.sh` File
 
 #### Starting the Bot
