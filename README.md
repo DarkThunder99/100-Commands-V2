@@ -18,6 +18,7 @@ or Run the `install.sh` File
 ## ⚙️ Configuration
 
 ⚠️ **Note: Never commit or share your Token or API Keys Publicly** ⚠️
+
 Make a `.env` Like This
 ```
 TOKEN=yourBotToken
