@@ -196,12 +196,10 @@ bot.on("message", async message => {
       
       if(message.attachments.size > 0)
         return message.channel.send("Hey buddy! I cannot read files :(\nPlease try to keep it in chat..")
-	    
-     chat.chat(message.content).then(reply => {
-          message.channel.send(reply))
-     ).catch(e => console.log(e));
-     });
-    }
+	    chat.chat(message.content).then(reply => {
+		 message.channel.send(reply)
+    })     
+  };
 });
 
 bot.on("guildMemberAdd", async member => {
