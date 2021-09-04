@@ -5,6 +5,12 @@
 1. Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
 2. Node.js v12.0.0 or Newer
 
+## 💨 Run the projects
+
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/DarkThunder99/100-Commands-V2)
+[![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-MusicBot)](https://repl.it/github/DarkThunder99/100-Commands-V2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DarkThunder99/100-Commands-V2)
+
 ## 🚀 Getting Started
 
 ## 💻 Installation
