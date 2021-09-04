@@ -64,7 +64,7 @@ or You can Run start.sh File to Start the Bot
 
 ## 📝 Features & Commands
 
-> Note: The default prefix is '/'
+> Note: The default prefix is '!'
 
 ### Features: 
 ```
