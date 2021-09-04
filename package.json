@@ -14,6 +14,7 @@
     "canvacord": "^5.2.0",
     "canvas": "^2.8.0",
     "cheerio": "^1.0.0-rc.3",
+    "clever-chat": "^8.0.0",
     "common-tags": "^1.8.0",
     "discord-canvas": "^1.4.1",
     "discord-image-generation": "^1.4.9",
